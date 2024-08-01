@@ -1,15 +1,15 @@
 {
   "train": [
     {
-      "root": "path/GRIT-20M/data/",
-      "anno": "path/GRIT-20M/anno/grit_odvg_10k.jsonl",
+      "root": "/data/baowen20/hlh/dataest/textOCR/train_images",
+      "anno": "/data/baowen20/hlh/train.jsonl",
       "dataset_mode": "odvg"
     }
   ],
   "val": [
     {
-      "root": "path/coco_2017/val2017",
-      "anno": "config/instances_val2017.json",
+      "root": "/data/baowen20/hlh/dataest/COCO/val2017",
+      "anno": "/data/baowen20/hlh/Open-GroundingDino/config/instances_val2017.json",
       "label_map": null,
       "dataset_mode": "coco"
     }
